@@ -1,0 +1,108 @@
+/* General Styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    color:#111;
+    background-image: url("images/forex3.jfif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Overlay for readability */
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    z-index:-1;
+}
+
+/* Header */
+header{
+    background: rgba(14, 165, 233, 0.85);
+    color:white;
+    text-align:center;
+    padding:30px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Main Content */
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+/* Intro Section */
+.content{
+    background: rgba(255,255,255,0.9);
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    margin-bottom:50px;
+}
+
+.content h2{
+    color:#0ea5e9;
+    margin-bottom:20px;
+}
+
+/* YouTubers Section */
+.youtubers{
+    background: rgba(34,197,94,0.85);
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:50px;
+    color:white;
+}
+
+.youtubers h2{
+    margin-bottom:20px;
+}
+
+.youtubers ul{
+    list-style-type: square;
+    padding-left:20px;
+}
+
+.youtubers li{
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+/* Books Section */
+.books{
+    background: rgba(251,191,36,0.85);
+    padding:30px;
+    border-radius:20px;
+    margin-bottom:50px;
+    color:#111;
+}
+
+.books h2{
+    margin-bottom:20px;
+}
+
+.books ul{
+    list-style-type: disc;
+    padding-left:20px;
+}
+
+.books li{
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background: rgba(14,165,233,0.85);
+    color:white;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
+}

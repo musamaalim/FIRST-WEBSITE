@@ -1,0 +1,91 @@
+/* General Page Styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image: url("images/forex2.jfif");
+    background:#f0f4f8;
+    color:#111;
+}
+
+header{
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color:white;
+    text-align:center;
+    padding:30px 0;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Contact Info Section */
+.content{
+    max-width:700px;
+    margin:40px auto;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.content h2{
+    color:#22c55e;
+    margin-bottom:20px;
+}
+
+/* Benefits Section */
+.benefits{
+    max-width:1000px;
+    margin:60px auto;
+    padding:50px 20px;
+    text-align:center;
+    background: linear-gradient(135deg, #bae6fd, #0ea5e9);
+    border-radius:20px;
+    color:#0f172a;
+}
+
+.benefits h2{
+    font-size:32px;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+/* Benefit Cards Container */
+.benefit-cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* Individual Card */
+.benefit-card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    width:280px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.benefit-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.benefit-card h3{
+    margin-bottom:15px;
+    color:#22c55e;
+}
+
+.benefit-card p{
+    line-height:1.6;
+    font-size:14px;
+    color:#1e293b;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e3a8a;
+    color:white;
+}
