@@ -1,29 +1,138 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background:#f0f4f8;
-    color:#111;
+font-family: Arial;
+margin:0;
+background:#f5f7fb;
 }
+
+/* HEADER */
 
 header{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:30px 0;
+background:linear-gradient(90deg,#8a4f1e,#0ea5e9);
+color:white;
+text-align:center;
+padding:30px;
 }
 
-.content{
-    max-width:700px;
-    margin:50px auto;
-    padding:20px;
-    background:white;
-    border-radius:15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
 }
+
+nav a:hover{
+color:#22c55e;
+}
+
+/* INTRO */
+
+.intro{
+text-align:center;
+padding:40px;
+}
+
+/* COLOR LINE */
+
+.color-line{
+height:6px;
+background:linear-gradient(90deg,#22c55e,#0ea5e9,#9333ea,#f59e0b);
+margin:40px 0;
+}
+
+/* RESULTS GRID */
+
+.results-gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+padding:40px;
+}
+
+/* RESULT CARDS */
+
+.result-card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 6px 20px rgba(0,0,0,0.15);
+transition:0.3s;
+text-align:center;
+}
+
+.result-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.result-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.result-card h3{
+margin:15px;
+color:#1e3a8a;
+}
+
+.result-card p{
+padding:0 15px 20px;
+color:#444;
+}
+
+/* STATS SECTION */
+
+.statistics{
+text-align:center;
+padding:50px;
+background:#eef2ff;
+}
+
+.stats-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.stat-box{
+background:white;
+padding:30px;
+border-radius:15px;
+width:180px;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.stat-box:hover{
+background:#22c55e;
+color:white;
+transform:scale(1.05);
+}
+
+/* FOOTER */
 
 footer{
-    text-align:center;
-    padding:20px;
-    background:#1e3a8a;
-    color:white;
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+.chart-section{
+text-align:center;
+padding:60px;
+background:#f0f9ff;
+}
+
+.chart-section h2{
+margin-bottom:30px;
+color:#1e3a8a;
+}
+
+#winChart{
+max-width:400px;
+margin:auto;
 }
